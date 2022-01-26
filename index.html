@@ -9,7 +9,10 @@
 <body>
  Hi
 <script>
-   window.location.replace("https://m.youtube.com?gl=IN&theme=dark");
+ if (window.matchMedia('(display-mode: standalone)').matches) {
+    window.location.replace("https://m.youtube.com?gl=IN&theme=dark");
+}
+ 
 </script>
 
 
