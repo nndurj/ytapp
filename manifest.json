@@ -1,0 +1,13 @@
+{
+  "short_name": "Youtube",
+  "name": "Youtube",
+  "icons": [
+    {
+      "src": "launcher.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+}
